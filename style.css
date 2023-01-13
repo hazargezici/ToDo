@@ -1,0 +1,44 @@
+body{
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC); 
+    background: linear-gradient(to left, #CFDEF3, #E0EAFC);
+    
+}
+.card-header span.header{
+    font-size: 35px;
+}
+.card{
+    background: #f5faff;
+    background: -webkit-linear-gradient(to right, #ffffff, #f5faff);
+    background: linear-gradient(to right, #ffffff, #f5faff); 
+}
+.settings li {
+    list-style: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task label.checked {
+    text-decoration: line-through;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters span.active {
+    color: #3C87FF;
+}
+
+.filters span {
+    margin-right: 15px;
+    font-size: 15px;
+    color: #444444;
+    cursor: pointer;
+}
